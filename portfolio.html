@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - hnix55</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section id="portfolio">
+            <h2>My Work</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-project="1">
+                    <img src="project1-thumbnail.jpg" alt="Project 1">
+                    <h3>Project One</h3>
+                </div>
+                <div class="portfolio-item" data-project="2">
+                    <img src="project2-thumbnail.jpg" alt="Project 2">
+                    <h3>Project Two</h3>
+                </div>
+                <!-- Add more projects here -->
+            </div>
+        </section>
+
+        <!-- Modal -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <img id="modal-image" src="" alt="Project Image">
+                <div id="modal-description"></div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
